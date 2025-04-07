@@ -15,6 +15,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SbDtoAppApplication {
 
 	
+	private int x=95;
+	
+	
+	
 	@Bean
 	public Docket getDocket() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
